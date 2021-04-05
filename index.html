@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet" \>
+    <title>Employee Form</title>
+</head>
+<body>
+    <h1>Employee Form</h1>
+    <div class="form">
+        <div class="name">
+            <div class="firstname">
+                <label for="firstname">First Name</label>
+                <input  id="firstname" type="text" name="Name"><br>
+            </div>
+            <div class="lastname">
+                <label for="Lastname">Last Name</label>
+                <input  id="Lastname" type="text" name="Name"><br>
+            </div>
+        </div>
+        <div class="gender">
+            <p>Gender:</p>
+            <label for="M">
+                Male
+            <input id="M" type="radio" name="sex" value="male">
+            </label><br>
+            <label for="F">
+                Female
+            <input id="F" type="radio" name="sex" value="female">
+            </label><br>
+            <label for="O">
+                Others
+            <input type ="radio" id="O" name="sex" value="others">
+            </label><br>
+        </div>
+        <div class="contact-info">
+            <div class="phonenumber">
+                <label for="phonenumber">
+                    Phone
+                <input id="phonenumber" type="number" name="Phone" value="Phone number">
+                </label><br>
+            </div>
+            <div class="email">
+                <label for="email">
+                    Email
+                <input type="email" id="email" name="email id">
+                </label><br>
+            </div>
+            <div class="address">
+                <label for="address">
+                    Address 
+                <input type="text" id="address" name="address">
+                </label><br>
+            </div>
+        </div>
+        <div class="password">
+            <div class="password-1">
+                <label for="password">
+                    Password 
+                </label>
+                <input type="password" id="password" name="password"><br>
+            </div>
+            <div class="retype-password">
+                <label for="retype password">
+                    Confirm Password 
+                <input type="password" id="retype password" name="password">
+                </label>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="submit-button">
+                <input type="button" value="Submit">
+            </div>
+            <div class="cancel-button">
+                <input type="button" value="Cancel">
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

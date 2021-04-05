@@ -1,0 +1,52 @@
+.form{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 10px;
+    padding: 10px 0 0 5px;
+    background: lightgrey;
+    border: 2px solid black;
+    overflow:inherit;
+}
+p{
+    margin:10px 0 5px 0;   
+}
+input{
+    position:absolute;
+    left: 140px;
+}
+.firstname{
+    margin:0 0 10px 0;
+    padding:0;
+}
+.name{
+    margin: 0 0 20px 0;
+}
+.gender{
+    margin:0 0 20px 0;
+}
+.phonenumber{
+    margin:0 0 10px 0;
+}
+.email{
+    margin:0 0 10px 0;
+}
+.address{
+    margin:0 0 10px 0;
+}
+.password-1{
+    margin:0 0 10px 0;
+}
+h1{
+    margin: 0 0 0 10px;
+}
+.submit-button{
+    position: absolute;
+    top:350px;
+    right:450px;
+}
+.cancel-button{
+    position: absolute;
+    top:350px;
+    right:350px;
+}
